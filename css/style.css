@@ -185,3 +185,159 @@ a{
     padding-bottom: 20px;
 }
 
+.track{
+
+    background-image: url(../images/track_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.track_inner{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+.track_title{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.track_text{
+    max-width: 435px;
+
+}
+.track_img{
+   margin: auto auto 90px auto;
+}
+.evo{
+    font-size: 14px;
+}
+.evo-black{
+    background: #363636;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    color: #fff;
+}
+.evo-black-inner{
+    position: relative;
+}
+.evo-black-inner::before{
+    content: '';
+    background-image: url(../images/dec-1.svg);
+    position: absolute;
+    width: 185px;
+    height: 213px;
+    top: 210px;
+    left: -130px;
+}
+
+.evo-black-inner::after{
+    content: '';
+    background-image: url(../images/dec-2.svg);
+    position: absolute;
+    width: 498px;
+    height: 572px;
+    top: 290px;
+    left: -40px;
+}
+
+.evo-black_info{
+    display: flex;
+    justify-content: space-between;
+}
+.infoBox{
+    margin-left: 50px;
+    width: 437px;
+    height: 217px;
+}
+.evo-black_text{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.evo-black_title{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.evo-black_img{
+    margin-bottom: 60px;
+    margin-top: 170px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.evo_descr-list{
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    gap: 0 65px;
+}
+.evo_descr-list dd{
+    text-transform: uppercase;
+}
+
+.evo-white-inner{
+    padding-top: 134px;
+    position: relative;
+}
+
+.evo-white-inner::before{
+    content: '';
+    background-image: url(../images/dec-3.png);
+    position: absolute;
+    width: 274px;
+    height: 256px;
+    top: -20px;
+    left: 324px;
+}
+
+.evo-white-inner::after{
+    content: '';
+    background-image: url(../images/dec-4.png);
+    position: absolute;
+    width: 324px;
+    height: 311px;
+    top: 75px;
+    left: 595px;
+}
+
+.evo-white_text{
+    margin-bottom: 30px;
+}
+
+.evo-white_text:first-child{
+    width: 285px;
+}
+
+.evo-white_text:nth-child(2){
+    width: 437px;
+}
+
+.evo-white_text:nth-child(3){
+    width: 590px
+}
+
+.evo-white_video{
+    margin-top: 100px;
+    background-image: url(../images/evo-video.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 266px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.evo-white_video_link span{
+    display: block;
+    color: #fff;
+}
